@@ -1,0 +1,110 @@
+.header {
+  &__top {
+    display: flex;
+    text-transform: uppercase;
+    color: var(--main-text-color);
+
+    height: 40px;
+    background: #f4f4f4;
+  }
+  &__top-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+
+  &__contacts {
+    display: flex;
+    gap: 25px;
+  }
+
+  &__contacts-link {
+    padding: 13px 0;
+    color: inherit;
+    text-decoration: none;
+  }
+
+  &__lang-swicher {
+    margin-left: 25px;
+  }
+
+  &__bottom {
+    width: 100%;
+    padding: 24px 0;
+    display: flex;
+    align-items: center;
+
+    border-bottom: #E0E0E0 2px solid;
+
+    color: #000;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+  &__bottom-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__logo-link {
+  }
+
+  &__logo {
+  }
+
+  &__nav {
+    display: flex;
+    align-items: center;
+    gap: 120px;
+  }
+  &__nav-link {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  &__nav-item {
+  }
+
+  &__buy-box {
+    display: flex;
+    align-items: center;justify-content: center;
+  }
+
+  &__location-btn,
+  &__cart-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    background-color: transparent;
+    border-color: transparent;
+  }
+
+  &__cart-btn {
+    margin-left: 15px;
+  }
+}
+.lang-swicher {
+  height: 33px;
+  width: 43px;
+  display: flex;
+  align-items: center;
+  color: inherit;
+
+  background-color: transparent;
+  border-color: transparent;
+
+  &__text {
+  }
+
+  &__icon {
+  }
+}
+.location-btn {
+  &__icon {
+  }
+
+  &__text {
+  }
+}

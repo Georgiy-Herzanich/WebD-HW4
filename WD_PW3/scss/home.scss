@@ -1,0 +1,257 @@
+/*
+▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘   Imports   ⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
+*/
+/*
+▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
+▮▮   style.scss
+▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
+*/
+@import "./moduls/style";
+/*
+▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
+▮▮   header.scss
+▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
+*/
+@import "./moduls/header";
+/*
+▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
+▮▮   footer.scss
+▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
+*/
+@import "./moduls/footer";
+/*
+▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
+▮▮   this file
+▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
+*/
+/*
+▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘   hero   ⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
+*/
+.hero {
+  padding-top: 48px;
+
+  &_bg {
+    width: 110%;
+    margin-left: -5%;
+  }
+
+  &__container {
+  }
+
+  &__img-side {
+  }
+
+  &__text-side {
+    padding: 82px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__title {
+    max-width: 355px;
+    margin-right: 136px;
+    // margin-left: 55px;
+  }
+
+  &__subtitle {
+    max-width: 570px;
+  }
+}
+/*
+▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘   rooms   ⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
+*/
+.rooms {
+  padding: 120px 0;
+  &__container {
+    padding: 0 32px;
+  }
+
+  &__list {
+    --column-count: 2;
+    --column-gap-value: 24px;
+    --row-gap-value: 32px;
+  }
+
+  &__list-item {
+  }
+
+  &__list-img {
+  }
+
+  &__list-title {
+    margin-top: 9px;
+  }
+}
+/*
+▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘   world-brands   ⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
+*/
+.world-brands {
+  padding: 120px 0;
+
+  &__container {
+  }
+
+  &__top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__title {
+  }
+
+  &__subtitle {
+    margin-top: 27px;
+  }
+
+  &__bottom {
+    margin-top: 125px;
+  }
+
+  &__brands-img {
+  }
+}
+/*
+▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘   about-us   ⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
+*/
+.about-us {
+  padding: 120px 0;
+  &__top {
+    position: relative;
+  }
+
+  &__img-list {
+    display: flex;
+    width: 100%;
+  }
+
+  &__container {
+  }
+
+  &__bottom {
+    margin-top: 71px;
+  }
+
+  &__title {
+    max-width: 1077px;
+  }
+
+  &__subtitle {
+    margin-top: 24px;
+
+    color: #46856e;
+    font-size: 14px;
+    line-height: 12px;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+  }
+
+  &__list {
+    margin-top: 71px;
+
+    --column-count: 3;
+    --column-gap-value: 40px;
+    --row-gap-value: 32px;
+    gap: 40px;
+  }
+
+  &__item {
+  }
+}
+
+/*
+▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘   reviews   ⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
+*/
+.reviews {
+  padding: 120px 0;
+  margin-top: 120px;
+  background: url(../img/homePage/reviews/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  &__list {
+    margin-left: 60px;
+  }
+
+  &__list-item:not(:last-child) {
+    margin-bottom: 41px;
+  }
+
+  &__star-list {
+    display: flex;
+  }
+
+  &__star-list-item {
+  }
+
+  &__list-text {
+    color: #fff;
+    font-size: 24px;
+    line-height: 32px; /* 133.333% */
+    margin-top: 14px;
+  }
+
+  &__list-img {
+    width: 100px;
+    margin-top: 8px;
+  }
+}
+/*
+▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘   we-make   ⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
+*/
+.we-make {
+  padding: 120px 0;
+  margin-top: 120px;
+  &__container {
+  }
+
+  &__top {
+    max-width: 882px;
+    margin: 0 auto;
+  }
+
+  &__subtitle {
+    font-size: 46px;
+    line-height: 52px;
+  }
+
+  &__title {
+    margin-top: 25px;
+  }
+
+  &__bottom {
+    margin-top: 135px;
+  }
+
+  &__list {
+  }
+
+  &__list-item:nth-child(2n) {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  &__list-item:not(:last-child) {
+    margin-bottom: 64px;
+  }
+}
+
+/*
+▮▮▯▯⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘   img-galery   ⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘⁘▯▯▮▮
+*/
+.img-galery {
+  // overflow: hidden;
+
+  display: flex;
+  overflow: hidden;
+
+  &__img-list-item {
+    width: 90%;
+  }
+
+  &__img-list-img {
+    width: 100%;
+  }
+}
+
+

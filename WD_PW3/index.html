@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Traveling</title>
+
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css" rel="stylesheet">
+  <!-- <link href="/scss/style.scss" rel="stylesheet"> -->
+  <link href="./scss/home.css" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script> -->
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__top">
+      <div class="header__top-container container">
+        <address class="header__contacts">
+          <a class="header__contacts-link" href="#">Contact Sales</a>
+          <a class="header__contacts-link" href="#">TEL 646-791-3726</a>
+        </address>
+        <button class="header__lang-swicher lang-swicher">
+          <p class="lang-swicher__text">US</p>
+          <!-- <svg class="lang-swicher__icon" width="14" height="10">
+            <use href="./img/icons.svg#icon-arrow-down"></use>
+          </svg> -->
+        </button>
+      </div>
+
+    </div>
+    <div class="header__bottom">
+      <div class="header__bottom-container container">
+        <a class="header__logo-link" href>
+          <svg class="header__logo" width="50" height="50">
+            <use href="./img/icons.svg#icon-logo"></use>
+          </svg>
+        </a>
+        <ul class="header__nav">
+          <li class="header__nav-item">
+            <a class="header__nav-link" href>Products</a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href>Explore</a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href>Shop</a>
+          </li>
+        </ul>
+        <div class="header__buy-box">
+          <button class="header__location-btn location-btn">
+            <svg class="location-btn__icon" width="20" height="24">
+              <use href="./img/icons.svg#icon-map-point"></use>
+            </svg>
+            <p class="location-btn__text">US</p>
+          </button>
+          <button class="header__cart-btn">
+            <svg class="location-btn__icon" width="20" height="24">
+              <use href="./img/icons.svg#icon-cart"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </header>
+  <main class="main">
+    <section class="hero">
+      <div class="hero__container container">
+        <div class="hero__img-side"><img class="hero_bg" src="./img/homePage/hero/01.jpg" alt="room"></div>
+        <div class="hero__text-side">
+          <h1 class="hero__title title title_h2">Design that inspires a better way to work.</h1>
+          <p class="hero__subtitle subtitle subtitle_s1">We've developed a series of purpose-built rooms that offer
+            companies looking for change an affordable, sustainable, and flexible alternative to fixed construction and
+            traditional office design.</p>
+        </div>
+      </div>
+    </section>
+    <section class="rooms">
+      <div class="rooms__container container">
+        <ul class="rooms__list card-box">
+          <li class="rooms__list-item card">
+            <img class="rooms__list-img" src="./img/homePage/rooms/01.jpg" alt="room 1">
+            <h3 class="rooms__list-title title title_h4">Phone Booth</h3>
+          </li>
+          <li class="rooms__list-item card">
+            <img class="rooms__list-img" src="./img/homePage/rooms/02.jpg" alt="room 2">
+            <h3 class="rooms__list-title title title_h4">Focus Room</h3>
+          </li>
+          <li class="rooms__list-item card">
+            <img class="rooms__list-img" src="./img/homePage/rooms/03.jpg" alt="room 3">
+            <h3 class="rooms__list-title title title_h4">Meeting Room</h3>
+          </li>
+          <li class="rooms__list-item card">
+            <img class="rooms__list-img" src="./img/homePage/rooms/04.jpg" alt="room 4">
+            <h3 class="rooms__list-title title title_h4">Open Meeting Room</h3>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="world-brands">
+      <div class="world-brands__container container">
+        <div class="world-brands__top">
+          <h2 class="world-brands__title title title_h2">
+            The world's leading brands choose ROOM.
+          </h2>
+          <p class="world-brands__subtitle subtitle">
+            Over 3,000 and counting.
+          </p>
+        </div>
+        <div class="world-brands__bottom">
+          <img class="world-brands__brands-img" src="./img/homePage/worldBrands/brands.png" alt="brands">
+        </div>
+      </div>
+    </section>
+    <section class="about-us">
+      <div class="about-us__top">
+        <ul class="about-us__img-list img-galery">
+          <li class="swiper-slide img-galery__img-list-item">
+            <img class="img-galery__img-list-img" src="./img/homePage/aboutUs/examples/01.jpg" alt="room 1">
+          </li>
+          <li class="swiper-slide img-galery__img-list-item">
+            <img class="img-galery__img-list-img" src="./img/homePage/aboutUs/examples/02.jpg" alt="room 2">
+          </li>
+          <li class="swiper-slide img-galery__img-list-item">
+            <img class="img-galery__img-list-img" src="./img/homePage/aboutUs/examples/03.jpg" alt="room 3">
+          </li>
+          <li class="swiper-slide img-galery__img-list-item">
+            <img class="img-galery__img-list-img" src="./img/homePage/aboutUs/examples/01.jpg" alt="room 4">
+          </li>
+          <li class="swiper-slide img-galery__img-list-item">
+            <img class="img-galery__img-list-img" src="./img/homePage/aboutUs/examples/02.jpg" alt="room 5">
+          </li>
+        </ul>
+      </div>
+      <div class="about-us__container container">
+        <div class="about-us__bottom">
+          <h2 class="about-us__title title title_h2">
+            Our simple and seamless modular products allow teams to shape and then reshape their work environment with
+            ease.
+          </h2>
+          <p class="about-us__subtitle">GET IN TOUCH</p>
+
+          <ul class="about-us__list card-box">
+            <li class="about-us__item">
+              <div class="curd">
+                <div class="curd__top"><img class="curd__img" src="./img/homePage/aboutUs/01.svg" alt></div>
+                <div class="curd__bottom">
+                  <div class="curd__title title title_h4">Cost-effective</div>
+                  <div class="curd__subtitle subtitle subtitle_s2">At a fraction of the cost of traditional
+                    construction, our pre-fab solutions create additional space for focused work and collaboration
+                    without constant noise, debris and distraction.</div>
+                </div>
+              </div>
+            </li>
+            <li class="about-us__item">
+              <div class="curd">
+                <div class="curd__top"><img class="curd__img" src="./img/homePage/aboutUs/02.svg" alt></div>
+                <div class="curd__bottom">
+                  <div class="curd__title title title_h4">Time Saving</div>
+                  <div class="curd__subtitle subtitle subtitle_s2">Thoughtful design ensures simple installation in a
+                    few hours or less. And, because our products are safety ensured, you'll never have to spend time or
+                    money chasing after permits, contractors, and more.</div>
+                </div>
+              </div>
+            </li>
+            <li class="about-us__item">
+              <div class="curd">
+                <div class="curd__top"><img class="curd__img" src="./img/homePage/aboutUs/03.svg" alt></div>
+                <div class="curd__bottom">
+                  <div class="curd__title title title_h4">Flexible</div>
+                  <div class="curd__subtitle subtitle subtitle_s2">Unlike traditional construction, our purpose-built
+                    products were designed to adapt with your workspace and can easily be positioned in various places
+                    throughout your office, or to an entirely new location.</div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="reviews">
+      <div class="reviews__container container">
+        <ul class="reviews__list">
+          <li class="reviews__list-item">
+            <ul class="reviews__star-list">
+              <li class="reviews__star-list-item">
+                <svg class="header__logo" width="21" height="21">
+                  <use href="./img/icons.svg#icon-star"></use>
+                </svg>
+              </li>
+              <li class="reviews__star-list-item">
+                <svg class="header__logo" width="21" height="21">
+                  <use href="./img/icons.svg#icon-star"></use>
+                </svg>
+              </li>
+              <li class="reviews__star-list-item">
+                <svg class="header__logo" width="21" height="21">
+                  <use href="./img/icons.svg#icon-star"></use>
+                </svg>
+              </li>
+              <li class="reviews__star-list-item">
+                <svg class="header__logo" width="21" height="21">
+                  <use href="./img/icons.svg#icon-star"></use>
+                </svg>
+              </li>
+              <li class="reviews__star-list-item">
+                <svg class="header__logo" width="21" height="21">
+                  <use href="./img/icons.svg#icon-star"></use>
+                </svg>
+              </li>
+            </ul>
+            <p class="reviews__list-text">“We can now have <br>meetings in peace.”</p>
+            <img class="reviews__list-img" src="./img/homePage/reviews/01.png" alt="Google">
+          </li>
+          <li class="reviews__list-item">
+            <ul class="reviews__star-list">
+              <li class="reviews__star-list-item">
+                <svg class="header__logo" width="21" height="21">
+                  <use href="./img/icons.svg#icon-star"></use>
+                </svg>
+              </li>
+              <li class="reviews__star-list-item">
+                <svg class="header__logo" width="21" height="21">
+                  <use href="./img/icons.svg#icon-star"></use>
+                </svg>
+              </li>
+              <li class="reviews__star-list-item">
+                <svg class="header__logo" width="21" height="21">
+                  <use href="./img/icons.svg#icon-star"></use>
+                </svg>
+              </li>
+              <li class="reviews__star-list-item">
+                <svg class="header__logo" width="21" height="21">
+                  <use href="./img/icons.svg#icon-star"></use>
+                </svg>
+              </li>
+              <li class="reviews__star-list-item">
+                <svg class="header__logo" width="21" height="21">
+                  <use href="./img/icons.svg#icon-star"></use>
+                </svg>
+              </li>
+            </ul>
+            <p class="reviews__list-text">“Amazing private space <br>to get work done.”</p>
+            <img class="reviews__list-img" src="./img/homePage/reviews/02.png" alt="Google">
+          </li>
+          <li class="reviews__list-item">
+            <ul class="reviews__star-list">
+              <li class="reviews__star-list-item">
+                <svg class="header__logo" width="21" height="21">
+                  <use href="./img/icons.svg#icon-star"></use>
+                </svg>
+              </li>
+              <li class="reviews__star-list-item">
+                <svg class="header__logo" width="21" height="21">
+                  <use href="./img/icons.svg#icon-star"></use>
+                </svg>
+              </li>
+              <li class="reviews__star-list-item">
+                <svg class="header__logo" width="21" height="21">
+                  <use href="./img/icons.svg#icon-star"></use>
+                </svg>
+              </li>
+              <li class="reviews__star-list-item">
+                <svg class="header__logo" width="21" height="21">
+                  <use href="./img/icons.svg#icon-star"></use>
+                </svg>
+              </li>
+              <li class="reviews__star-list-item">
+                <svg class="header__logo" width="21" height="21">
+                  <use href="./img/icons.svg#icon-star"></use>
+                </svg>
+              </li>
+            </ul>
+            <p class="reviews__list-text">“Our booths are <br>in constant use.”</p>
+            <img class="reviews__list-img" src="./img/homePage/reviews/03.png" alt="Google">
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="we-make">
+      <div class="we-make__container container">
+        <div class="we-make__top">
+          <p class="we-make__subtitle subtitle">
+            We take a human approach to a business-to-business industry, breaking the boundaries between corporate and
+            personal, and rethinking every step of the user experience along the way.
+          </p>
+          <h2 class="we-make__title title title_h2">We make work, work for you.</h2>
+        </div>
+        <div class="we-make__bottom">
+          <ul class="we-make__list">
+            <li class="we-make__list-item bl1">
+              <div class="bl1__left">
+                <img class="bl1__img" src="./img/homePage/weMake/01.jpg" alt>
+              </div>
+              <div class="bl1__right">
+                <div class="bl1__text-wraper">
+                  <div class="bl1__title title title_h3">We sell direct.</div>
+                  <div class="bl1__subtitle subtitle subtitle_s2">
+                    We make extra room in the budget without compromising quality by selling direct. No middle man, and
+                    no additional construction required.
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="we-make__list-item bl1">
+              <div class="bl1__left">
+                <img class="bl1__img" src="./img/homePage/weMake/02.jpg" alt>
+              </div>
+              <div class="bl1__right">
+                <div class="bl1__text-wraper">
+                  <div class="bl1__title title title_h3">We build with purpose.</div>
+                  <div class="bl1__subtitle subtitle subtitle_s2">
+                    We’re not just building another room with four walls, we’re building a more productive workspace. We
+                    design with you in mind, looking at every detail as an opportunity to enable a better working
+                    environment for everyone.
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="we-make__list-item bl1">
+              <div class="bl1__left">
+                <img class="bl1__img" src="./img/homePage/weMake/03.jpg" alt>
+              </div>
+              <div class="bl1__right">
+                <div class="bl1__text-wraper">
+                  <div class="bl1__title title title_h3">We design sustainably.</div>
+                  <div class="bl1__subtitle subtitle subtitle_s2">
+                    From design to delivery, we strive to lessen our impact on the environment. Our products are
+                    engineered with recycled materials and replace multiple cycles of construction, minimizing noise and
+                    our footprint.
+                  </div>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="galery swiper">
+      <ul class="img-galery swiper-wrapper">
+        <li class="img-galery__img-list-item swiper-slide">
+          <img class="img-galery__img-list-img" src="./img/homePage/aboutUs/examples/01.jpg" alt="room 1">
+        </li>
+        <li class="img-galery__img-list-item swiper-slide">
+          <img class="img-galery__img-list-img" src="./img/homePage/aboutUs/examples/02.jpg" alt="room 2">
+        </li>
+        <li class="img-galery__img-list-item swiper-slide">
+          <img class="img-galery__img-list-img" src="./img/homePage/aboutUs/examples/03.jpg" alt="room 3">
+        </li>
+      </ul>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+      <!-- If we need scrollbar -->
+      <div class="swiper-scrollbar"></div>
+    </section>
+    <article class="free-trial">
+      <div class="free-trial__container container">
+        <h2 class="free-trial__title title title_h2">100 day risk-free trial</h2>
+        <ul class="free-trial__list">
+          <li class="free-trial__list-item">
+            <img class="free-trial__list-img" src="./img/homePage/free-trial/01.svg" alt="1">
+            <p class="free-trial__list-desc">FREE SHIPPING</p>
+          </li>
+          <li class="free-trial__list-item">
+            <img class="free-trial__list-img" src="./img/homePage/free-trial/02.svg" alt="2">
+            <p class="free-trial__list-desc">PLUG & PLAY</p>
+          </li>
+          <li class="free-trial__list-item">
+            <img class="free-trial__list-img" src="./img/homePage/free-trial/03.svg" alt="3">
+            <p class="free-trial__list-desc">FREE RETURNS</p>
+          </li>
+        </ul>
+        <button class="free-trial__btn">GET A ROOM</button>
+        <p class="free-trial__desc">Terms & Conditions apply</p>
+      </div>
+    </article>
+    <section class=""></section>
+  </main>
+  <footer class="footer"></footer>
+
+  <!-- Я питався 🤷‍♂️ -->
+  <!-- Ініціалізація Swiper -->
+  
+  <script>
+    const swiper = new Swiper('.swiper', {
+      // Optional parameters
+      direction: 'vertical',
+      loop: true,
+
+      // If we need pagination
+      pagination: {
+        el: '.swiper-pagination',
+      },
+
+      // Navigation arrows
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+
+      // And if we need scrollbar
+      scrollbar: {
+        el: '.swiper-scrollbar',
+      },
+    });
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  
+</body>
+
+
+</html>
