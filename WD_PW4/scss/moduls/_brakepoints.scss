@@ -1,0 +1,40 @@
+$breakpoint-xsmall: 360px; /* Для екранів менше 360px */
+$breakpoint-small: 576px; /* Для екранів менше 576px */
+$breakpoint-medium: 768px; /* Для екранів менше 768px */
+$breakpoint-large: 992px; /* Для екранів менше 992px */
+$breakpoint-xlarge: 1200px; /* Для екранів менше 1200px */
+
+/* Міксин для брейкпоінту xsmall */
+@mixin xsmall {
+  @media (max-width: $breakpoint-xsmall) {
+    @content;
+  }
+}
+
+/* Міксин для брейкпоінту small */
+@mixin small {
+  @media (max-width: $breakpoint-small) {
+    @content;
+  }
+}
+
+/* Міксин для брейкпоінту medium */
+@mixin medium {
+  @media (max-width: $breakpoint-medium) {
+    @content;
+  }
+}
+
+/* Міксин для брейкпоінту large */
+@mixin large {
+  @media (max-width: $breakpoint-large) {
+    @content;
+  }
+}
+
+/* Міксин для брейкпоінту xlarge */
+@mixin xlarge {
+  @media (max-width: $breakpoint-xlarge) {
+    @content;
+  }
+}

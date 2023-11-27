@@ -6,6 +6,11 @@
   --column-gap-value: 24px;
   --row-gap-value: 32px;
 
+  --breakpoint-xsmall: 360px; /* Для екранів менше 360px */
+  --breakpoint-small: 576px; /* Для екранів менше 576px */
+  --breakpoint-medium: 768px; /* Для екранів менше 768px */
+  --breakpoint-large: 992px; /* Для екранів менше 992px */
+  --breakpoint-xlarge: 1200px; /* Для екранів менше 1200px */
 }
 *{
   padding: 0;
@@ -38,6 +43,10 @@ body {
   &_h2 {
     font-size: 48px;
     line-height: 120.8%;
+
+    @include medium {
+      font-size: 38px;
+    }
   }
   &_h3 {
     font-size: 32px;
@@ -63,6 +72,16 @@ body {
   }
 }
 
+.section-padding{
+  padding: 120px 0;
+  @include medium{
+    padding: 60px 0;
+  }
+  @include small{
+    padding: 40px 0;
+  }
+}
+
 .card-box{
   position: relative;
   display: grid;
@@ -78,19 +97,33 @@ body {
 
 .bl1 {
   display: flex;
+
   &__left {
     width: 55%;
+    margin: 0 auto;
+    @include medium {
+      width: 80%;
+    }
   }
 
   &__img {
+    margin: 0 auto;
   }
 
   &__right {
     width: 44%;
+    padding: 0 25px;
+
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    @include medium {
+      margin: 0 auto;
+      width: 100%;
+      margin-top: 20px;
+    }
   }
 
   &__title {
@@ -103,7 +136,8 @@ body {
 }
 
 .free-trial {
-  padding: 120px 0;
+  @extend .section-padding;
+  margin: 0 20px;
 
   &__container {
     max-width: 1200px;
@@ -119,13 +153,21 @@ body {
   }
 
   &__title {
+    text-align: center;
   }
 
   &__list {
     margin-top: 65px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    justify-content: center;
+    // grid-template-columns: repeat(3, 1fr);
     gap: 203px;
+
+    @include medium {
+      gap: 100px;
+      flex-wrap: wrap;
+    }
+    
   }
 
   &__list-item {
